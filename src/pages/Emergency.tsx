@@ -19,7 +19,7 @@ const Emergency = () => {
         "Dizziness or fainting"
       ],
       immediateActions: [
-        "Call 911 immediately",
+        "Call 108 immediately",
         "Use EpiPen if prescribed (inject into outer thigh)",
         "Keep person lying flat with legs elevated",
         "Loosen tight clothing",
@@ -42,7 +42,7 @@ const Emergency = () => {
       ],
       immediateActions: [
         "Call 911 immediately",
-        "Call Poison Control: 1-800-222-1222",
+        "Call Poison Control: 1800-425-1213",
         "Gather all medication bottles",
         "Do NOT induce vomiting unless instructed",
         "Keep person awake if possible",
@@ -77,14 +77,14 @@ const Emergency = () => {
   const emergencyContacts = [
     {
       service: "Emergency Services",
-      number: "911",
+      number: "108",
       when: "Life-threatening emergencies",
       icon: Phone,
       color: "text-destructive"
     },
     {
       service: "Poison Control Center",
-      number: "1-800-222-1222",
+      number: "1800-425-1213",
       when: "Medication overdose or poisoning",
       icon: Shield,
       color: "text-accent"
@@ -176,7 +176,7 @@ const Emergency = () => {
               <Button size="lg" className="bg-destructive hover:bg-destructive/90 text-destructive-foreground h-16">
                 <Phone className="w-6 h-6 mr-3" />
                 <div className="text-left">
-                  <div className="font-bold text-lg">Call 911</div>
+                  <div className="font-bold text-lg">Call 108</div>
                   <div className="text-sm opacity-90">Emergency Services</div>
                 </div>
               </Button>
@@ -184,7 +184,7 @@ const Emergency = () => {
               <Button size="lg" variant="outline" className="h-16 border-accent text-accent hover:bg-accent/10">
                 <Shield className="w-6 h-6 mr-3" />
                 <div className="text-left">
-                  <div className="font-bold text-lg">1-800-222-1222</div>
+                  <div className="font-bold text-lg">1800-425-1213</div>
                   <div className="text-sm opacity-90">Poison Control</div>
                 </div>
               </Button>
