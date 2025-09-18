@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { AlertTriangle, Phone, Clock, Eye, Heart, Brain } from "lucide-react";
+import Header from "@/components/Header";
 
 const SideEffects = () => {
   const [activeCategory, setActiveCategory] = useState("common");
@@ -144,6 +145,7 @@ const SideEffects = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Header />
       {/* Header */}
       <div className="bg-gradient-to-r from-accent/10 to-destructive/10 py-12">
         <div className="container mx-auto px-4">

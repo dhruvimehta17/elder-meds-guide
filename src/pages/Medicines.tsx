@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Search, Heart, Brain, Bone, Eye, Pill } from "lucide-react";
+import Header from "@/components/Header";
 
 const Medicines = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -81,6 +82,7 @@ const Medicines = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Header />
       {/* Header */}
       <div className="bg-gradient-to-r from-primary/10 to-secondary/10 py-12">
         <div className="container mx-auto px-4">

@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Search, AlertTriangle, Pill, Apple, Clock, Shield } from "lucide-react";
+import Header from "@/components/Header";
 
 const Interactions = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -137,6 +138,7 @@ const Interactions = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Header />
       {/* Header */}
       <div className="bg-gradient-to-r from-accent/10 to-primary/10 py-12">
         <div className="container mx-auto px-4">

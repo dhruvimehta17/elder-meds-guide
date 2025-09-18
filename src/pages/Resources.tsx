@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Phone, BookOpen, Globe, Users, Download, ExternalLink } from "lucide-react";
+import Header from "@/components/Header";
 
 const Resources = () => {
   const resources = [
@@ -132,6 +133,7 @@ const Resources = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Header />
       {/* Header */}
       <div className="bg-gradient-to-r from-secondary/10 to-primary/10 py-12">
         <div className="container mx-auto px-4">

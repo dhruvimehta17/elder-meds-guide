@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Phone, AlertTriangle, Clock, Heart, Brain, Zap, Shield, Pill } from "lucide-react";
+import Header from "@/components/Header";
 
 const Emergency = () => {
   const emergencyScenarios = [
@@ -155,6 +156,7 @@ const Emergency = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Header />
       {/* Emergency Header */}
       <div className="bg-gradient-to-r from-destructive/20 to-accent/20 py-12">
         <div className="container mx-auto px-4">
