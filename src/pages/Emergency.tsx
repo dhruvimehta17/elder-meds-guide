@@ -41,7 +41,7 @@ const Emergency = () => {
         "Irregular heartbeat"
       ],
       immediateActions: [
-        "Call 911 immediately",
+        "Call 108 immediately",
         "Call Poison Control: 1800-425-1213",
         "Gather all medication bottles",
         "Do NOT induce vomiting unless instructed",
