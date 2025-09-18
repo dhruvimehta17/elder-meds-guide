@@ -271,7 +271,7 @@ const SideEffects = () => {
                 <div className="w-16 h-16 mx-auto mb-3 rounded-full bg-destructive/10 flex items-center justify-center">
                   <Phone className="w-8 h-8 text-destructive" />
                 </div>
-                <h3 className="font-semibold text-destructive mb-2">Call 911</h3>
+                <h3 className="font-semibold text-destructive mb-2">Call 108</h3>
                 <p className="text-sm text-muted-foreground">
                   Difficulty breathing, chest pain, loss of consciousness, severe allergic reactions
                 </p>
