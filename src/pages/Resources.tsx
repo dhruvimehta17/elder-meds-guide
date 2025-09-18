@@ -14,19 +14,19 @@ const Resources = () => {
         {
           title: "Emergency Services",
           description: "For life-threatening emergencies",
-          contact: "911",
+          contact: "108",
           type: "emergency"
         },
         {
           title: "Poison Control Center",
           description: "24/7 poison emergency helpline",
-          contact: "1-800-222-1222",
+          contact: "1800-425-1213",
           type: "urgent"
         },
         {
           title: "Medicare Drug Plan Helpline",
           description: "Medicare prescription drug benefit questions",
-          contact: "1-800-MEDICARE",
+          contact: "1800-11-0031",
           type: "support"
         }
       ]
@@ -254,8 +254,8 @@ const Resources = () => {
                     If you suspect a medication overdose or serious adverse reaction:
                   </p>
                   <ul className="mt-2 text-xs space-y-1">
-                    <li>• Call 911 for emergencies</li>
-                    <li>• Contact Poison Control: 1-800-222-1222</li>
+                    <li>• Call 108 for emergencies</li>
+                    <li>• Contact Poison Control: 1800-425-1213</li>
                     <li>• Bring all medication bottles to the hospital</li>
                   </ul>
                 </div>
