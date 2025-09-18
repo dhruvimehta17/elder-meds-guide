@@ -162,7 +162,7 @@ const SideEffects = () => {
               <div className="flex items-center justify-center space-x-3">
                 <Phone className="w-5 h-5 text-accent" />
                 <p className="font-semibold">
-                  For medical emergencies, call 911 immediately
+                  For medical emergencies, call 108 immediately
                 </p>
               </div>
             </div>
